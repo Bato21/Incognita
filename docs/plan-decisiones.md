@@ -45,7 +45,7 @@ Complementa docs/plan-mvp.md. Si algo choca, manda este archivo.
 | D6 | Modelo opusplan: Opus en plan mode, Sonnet al implementar | Plan Pro: estirar límites compartidos con claude.ai |
 | D7 | Supabase: proyecto dev ahora, prod en E6; el esquema cambia solo con migraciones; MCP solo contra dev y en solo lectura | Nunca exponer datos reales al agente |
 
-Pendientes para /debatir: licencia del repo (E0, primer debate) y nombre final + bundle id (antes de E5). Nombre en clave: Around The World.
+Pendiente para /debatir: licencias del repo y de lo que usamos (E0, primer debate). Nombre: **Incógnita** · bundle id `io.github.bato21.incognita` (decidido el 7 nov 2026; ver plan-mvp.md). El repo también se llama Incognita.
 
 ## iOS sin Mac propio
 
