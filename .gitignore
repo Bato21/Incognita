@@ -1,0 +1,54 @@
+# Notas locales (no versionar)
+mensaje_commit.txt
+
+# Dependencias
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Nativo (generado por prebuild)
+/ios
+/android
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Metro
+.metro-health-check*
+
+# Logs y depuración
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# Secretos: nunca en git (P10); solo se versiona .env.example
+.env
+.env*
+!.env.example
+
+# TypeScript
+*.tsbuildinfo
+
+# Claude Code: configuración personal
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Obsidian: estado local del vault
+docs/brain/.obsidian/workspace*.json
+.obsidian/
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+*.pem
+.vscode/*
+!.vscode/extensions.json
+.idea/
